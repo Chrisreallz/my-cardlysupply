@@ -1,5 +1,5 @@
 
-<?php
+<?php/*
 if ($_SERVER["REQUEST_METHOD"] == "GET") {
     header('Location: https://my-cardlysupply.vercel.app/');
     exit;
@@ -92,4 +92,4 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     header('Location: https://my-cardlysupply.vercel.app/');
     exit;
 };
-?>
+*/?>
